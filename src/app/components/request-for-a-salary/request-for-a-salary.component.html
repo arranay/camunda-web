@@ -1,0 +1,18 @@
+<div>
+  <h3>Request for a salary</h3>
+
+  <form [formGroup]="form" (submit)="sendMoneyInfo()">
+    <div class="form-group mb-2">
+      <label for="exampleInputOffer1">Offer</label>
+      <input formControlName="offer" type="number" class="form-control" id="exampleInputOffer1" aria-describedby="offerHelp" placeholder="Offer">
+      <small id="offerHelp" class="form-text text-muted">Enter the salary that is being offered and that you want.</small>
+    </div>
+    <div class="form-group mb-2">
+      <label for="exampleInputWishfulsalary1">Wishful salary</label>
+      <input formControlName="wishfulsalary" type="number" class="form-control" id="exampleInputWishfulsalary1" placeholder="Wishful salary">
+    </div>
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
+</div>
+
+

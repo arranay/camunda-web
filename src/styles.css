@@ -1,1 +1,29 @@
-/* You can add global styles to this file, and also import other style files */
+.ll-button {
+  background: none;
+  border: none;
+  outline: none;
+  box-shadow: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 8px 24px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+  transition: all 0.5s ease;
+
+  background-color: aliceblue;
+}
+
+.ll-input {
+  background-color: white;
+  border: 1px solid gray;
+  box-sizing: border-box;
+  outline: none;
+  height: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 8px;
+}
